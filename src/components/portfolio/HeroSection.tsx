@@ -20,7 +20,7 @@ const HeroSection = () => {
             and create meaningful experiences.
           </h1>
           <p className="text-lg text-muted-foreground max-w-lg font-body leading-relaxed">
-            Hi, I'm Paul Waweru — a product designer who turns tangled user problems into clear, 
+            Hi, I'm Paul Wachiuri — a product designer who turns tangled user problems into clear, 
             intuitive digital solutions. From housing platforms to energy marketplaces, I craft 
             experiences people actually want to use.
           </p>
@@ -49,7 +49,7 @@ const HeroSection = () => {
           <div className="rounded-2xl overflow-hidden shadow-2xl">
             <img
               src={heroImg}
-              alt="Paul Waweru - Product Designer"
+              alt="Paul Wachiuri - Product Designer"
               className="w-full h-auto object-cover aspect-square"
             />
           </div>
