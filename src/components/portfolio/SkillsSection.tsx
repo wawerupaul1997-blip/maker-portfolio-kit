@@ -7,7 +7,7 @@ const skillCategories = [
   },
   {
     title: "Tools",
-    skills: ["Figma", "FigJam", "Miro", "Notion"],
+    skills: ["Figma", "FigJam", "Miro", "Notion", "Framer", "Webflow"],
   },
   {
     title: "Collaboration",
