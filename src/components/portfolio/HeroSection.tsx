@@ -49,7 +49,7 @@ const HeroSection = () => {
           <div className="rounded-2xl overflow-hidden shadow-2xl">
             <img
               src={heroImg}
-              alt="Paul Waweru - Product Designer"
+              alt="Paul Wachiuri - Product Designer"
               className="w-full h-auto object-cover aspect-square"
             />
           </div>
