@@ -5,6 +5,10 @@ import skoolcompass2 from "@/assets/skoolcompass2.png";
 import skoolcompass3 from "@/assets/skoolcompass3.png";
 import skoolcompass4 from "@/assets/skoolcompass4.png";
 import skoolcompass5 from "@/assets/skoolcompass5.png";
+import premise2 from "@/assets/premise2.png";
+import premise3 from "@/assets/premise3.png";
+import premise4 from "@/assets/premise4.png";
+import premise5 from "@/assets/premise5.png";
 
 export interface CaseStudy {
   id: string;
@@ -54,6 +58,12 @@ export const caseStudies: CaseStudy[] = [
       "Prioritized the verification badge system as the primary trust signal. Used map-first navigation because research showed renters think in neighborhoods, not keywords. Designed the messaging flow to keep conversations on-platform, reducing scam risk.",
     outcome:
       "Usability testing showed a 60% reduction in time-to-shortlist compared to participants' current methods. The verification system was rated as the most valued feature by 9 out of 12 test participants.",
+    gallery: [
+      { src: premise2, caption: "Home screen with featured listings and quick actions" },
+      { src: premise3, caption: "Property listings with verified badges and pricing" },
+      { src: premise4, caption: "Detailed property view with booking and chat features" },
+      { src: premise5, caption: "Advanced filter system for precise property search" },
+    ],
   },
   {
     id: "skoolcompass",
