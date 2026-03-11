@@ -145,6 +145,41 @@ const CaseStudy = () => {
             <p className="text-muted-foreground font-body leading-relaxed">{cs.process}</p>
           </motion.div>
 
+          {/* Gallery */}
+          {cs.gallery && cs.gallery.length > 0 && (
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5 }}
+              className="space-y-6"
+            >
+              <h2 className="text-sm font-display uppercase tracking-[0.2em] text-primary">Design Screens</h2>
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+                {cs.gallery.map((item, i) => (
+                  <motion.div
+                    key={i}
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.4, delay: i * 0.1 }}
+                    className="space-y-3"
+                  >
+                    <div className="rounded-xl overflow-hidden bg-secondary/40 border border-border p-3">
+                      <img
+                        src={item.src}
+                        alt={item.caption}
+                        className="w-full h-auto object-contain rounded-lg"
+                        loading="lazy"
+                      />
+                    </div>
+                    <p className="text-xs text-muted-foreground font-body text-center leading-relaxed">{item.caption}</p>
+                  </motion.div>
+                ))}
+              </div>
+            </motion.div>
+          )}
+
           {/* Features */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}

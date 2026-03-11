@@ -1,6 +1,10 @@
 import casePremise from "@/assets/case-premise.jpg";
 import caseSkool from "@/assets/case-skool.png";
 import caseEnergy from "@/assets/case-energy.jpg";
+import skoolcompass2 from "@/assets/skoolcompass2.png";
+import skoolcompass3 from "@/assets/skoolcompass3.png";
+import skoolcompass4 from "@/assets/skoolcompass4.png";
+import skoolcompass5 from "@/assets/skoolcompass5.png";
 
 export interface CaseStudy {
   id: string;
@@ -16,6 +20,7 @@ export interface CaseStudy {
   features: string[];
   decisions: string;
   outcome: string;
+  gallery?: { src: string; caption: string }[];
 }
 
 export const caseStudies: CaseStudy[] = [
@@ -80,6 +85,12 @@ export const caseStudies: CaseStudy[] = [
       "Chose a card-based layout over dense tables because parents scan, they don't read line-by-line. Built the comparison tool to cap at 3 schools based on research showing more options increase decision paralysis. Made fee information mandatory for listed schools.",
     outcome:
       "User testing demonstrated that parents could create a meaningful shortlist in under 10 minutes — compared to days using their existing methods. The comparison feature had the highest engagement rate in prototype testing.",
+    gallery: [
+      { src: skoolcompass2, caption: "Home screen with school listings and smart search" },
+      { src: skoolcompass3, caption: "Advanced filter system for precise school discovery" },
+      { src: skoolcompass4, caption: "Side-by-side comparison tool with custom metrics" },
+      { src: skoolcompass5, caption: "Favourites with ratings and notes for shortlisting" },
+    ],
   },
   {
     id: "energy-marketplace",
