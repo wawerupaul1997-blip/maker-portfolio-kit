@@ -5,6 +5,10 @@ import skoolcompass2 from "@/assets/skoolcompass2.png";
 import skoolcompass3 from "@/assets/skoolcompass3.png";
 import skoolcompass4 from "@/assets/skoolcompass4.png";
 import skoolcompass5 from "@/assets/skoolcompass5.png";
+import premise2 from "@/assets/premise2.png";
+import premise3 from "@/assets/premise3.png";
+import premise4 from "@/assets/premise4.png";
+import premise5 from "@/assets/premise5.png";
 
 export interface CaseStudy {
   id: string;
