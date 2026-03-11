@@ -1,5 +1,5 @@
 import casePremise from "@/assets/case-premise.jpg";
-import caseSkool from "@/assets/case-skool.jpg";
+import caseSkool from "@/assets/case-skool.png";
 import caseEnergy from "@/assets/case-energy.jpg";
 
 export interface CaseStudy {
