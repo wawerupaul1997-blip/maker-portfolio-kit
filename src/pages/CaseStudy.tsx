@@ -164,6 +164,34 @@ const CaseStudy = () => {
             </div>
           </motion.div>
 
+          {/* Screenshots */}
+          {cs.screenshots && cs.screenshots.length > 0 && (
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5 }}
+              className="space-y-6"
+            >
+              <h2 className="text-sm font-display uppercase tracking-[0.2em] text-primary">App Screens</h2>
+              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
+                {cs.screenshots.map((s, i) => (
+                  <div key={i} className="space-y-2">
+                    <div className="rounded-xl overflow-hidden border border-border bg-card shadow-md">
+                      <img
+                        src={s.src}
+                        alt={s.caption}
+                        className="w-full h-auto object-cover"
+                        loading="lazy"
+                      />
+                    </div>
+                    <p className="text-xs text-muted-foreground font-body text-center">{s.caption}</p>
+                  </div>
+                ))}
+              </div>
+            </motion.div>
+          )}
+
           {/* Decisions & Outcome */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
