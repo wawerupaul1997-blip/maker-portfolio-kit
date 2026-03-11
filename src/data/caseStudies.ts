@@ -1,11 +1,6 @@
 import casePremise from "@/assets/case-premise.jpg";
 import caseSkool from "@/assets/case-skool.jpg";
 import caseEnergy from "@/assets/case-energy.jpg";
-import skoolHome from "@/assets/skool-home.png";
-import skoolDetail from "@/assets/skool-detail.png";
-import skoolFilters from "@/assets/skool-filters.png";
-import skoolFavourites from "@/assets/skool-favourites.png";
-import skoolCompare from "@/assets/skool-compare.png";
 
 export interface CaseStudy {
   id: string;
@@ -21,7 +16,6 @@ export interface CaseStudy {
   features: string[];
   decisions: string;
   outcome: string;
-  screenshots?: { src: string; caption: string }[];
 }
 
 export const caseStudies: CaseStudy[] = [
@@ -86,13 +80,6 @@ export const caseStudies: CaseStudy[] = [
       "Chose a card-based layout over dense tables because parents scan, they don't read line-by-line. Built the comparison tool to cap at 3 schools based on research showing more options increase decision paralysis. Made fee information mandatory for listed schools.",
     outcome:
       "User testing demonstrated that parents could create a meaningful shortlist in under 10 minutes — compared to days using their existing methods. The comparison feature had the highest engagement rate in prototype testing.",
-    screenshots: [
-      { src: skoolHome, caption: "Home screen with school categories and search" },
-      { src: skoolDetail, caption: "School detail page with overview and subjects" },
-      { src: skoolFilters, caption: "Smart filter system for school discovery" },
-      { src: skoolFavourites, caption: "Favourites with ratings and notes" },
-      { src: skoolCompare, caption: "Side-by-side school comparison tool" },
-    ],
   },
   {
     id: "energy-marketplace",
