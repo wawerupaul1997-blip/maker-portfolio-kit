@@ -1,6 +1,11 @@
 import casePremise from "@/assets/case-premise.jpg";
 import caseSkool from "@/assets/case-skool.jpg";
 import caseEnergy from "@/assets/case-energy.jpg";
+import skoolHome from "@/assets/skool-home.png";
+import skoolDetail from "@/assets/skool-detail.png";
+import skoolFilters from "@/assets/skool-filters.png";
+import skoolFavourites from "@/assets/skool-favourites.png";
+import skoolCompare from "@/assets/skool-compare.png";
 
 export interface CaseStudy {
   id: string;
@@ -16,6 +21,7 @@ export interface CaseStudy {
   features: string[];
   decisions: string;
   outcome: string;
+  screenshots?: { src: string; caption: string }[];
 }
 
 export const caseStudies: CaseStudy[] = [
