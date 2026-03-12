@@ -135,6 +135,12 @@ export const caseStudies: CaseStudy[] = [
     decisions:
       "Designed the seller dashboard to emphasize earnings and surplus — motivating continued participation. The buyer view focuses on savings vs. grid pricing. Used progressive disclosure to handle complex data without overwhelming non-technical users. Pricing transparency was a non-negotiable design principle.",
     outcome:
-      "Prototype testing with 10 participants showed that 8 could complete a full buy-sell transaction without assistance. The savings calculator was identified as the key conversion driver for potential buyers.",
+       "Prototype testing with 10 participants showed that 8 could complete a full buy-sell transaction without assistance. The savings calculator was identified as the key conversion driver for potential buyers.",
+    gallery: [
+      { src: energy2, caption: "Onboarding screen with space-age node technology" },
+      { src: energy3, caption: "Seller dashboard with earnings and solar production tracking" },
+      { src: energy4, caption: "Landing page with marketplace overview and process steps" },
+      { src: energy5, caption: "Energy marketplace with solar, wind, and hydro listings" },
+    ],
   },
 ];
