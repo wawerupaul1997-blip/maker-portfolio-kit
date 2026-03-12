@@ -9,6 +9,10 @@ import premise2 from "@/assets/premise2.png";
 import premise3 from "@/assets/premise3.png";
 import premise4 from "@/assets/premise4.png";
 import premise5 from "@/assets/premise5.png";
+import energy2 from "@/assets/energy2.png";
+import energy3 from "@/assets/energy3.png";
+import energy4 from "@/assets/energy4.png";
+import energy5 from "@/assets/energy5.png";
 
 export interface CaseStudy {
   id: string;
