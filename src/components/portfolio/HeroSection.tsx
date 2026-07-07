@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import heroImg from "@/assets/hero-paul.jpg";
+import heroAsset from "@/assets/hero-paul.jpg.asset.json";
 
 const HeroSection = () => {
   return (
@@ -48,9 +48,9 @@ const HeroSection = () => {
         >
           <div className="rounded-2xl overflow-hidden shadow-2xl">
             <img
-              src={heroImg}
+              src={heroAsset.url}
               alt="Paul Wachiuri - Product Designer"
-              className="w-full h-auto object-cover aspect-square"
+              className="w-full h-auto object-cover aspect-[3/4]"
             />
           </div>
           <div className="absolute -bottom-4 -left-4 w-24 h-24 rounded-xl bg-primary/20 -z-10" />
