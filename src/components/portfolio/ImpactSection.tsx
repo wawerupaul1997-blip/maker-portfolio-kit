@@ -18,8 +18,7 @@ const ImpactSection = () => {
           <div className="space-y-4 text-lg text-muted-foreground font-body leading-relaxed max-w-2xl mx-auto">
             <p>
               I see design as a lever for equity. The platforms I'm most drawn to are the ones that give 
-              people access — to housing they can trust, to education information they can act on, to clean 
-              energy they can afford.
+              people access to well-thoughtout solutions, and impact their lives positively.
             </p>
             <p>
               My vision is to contribute to a digital ecosystem where transparency is the default, where 

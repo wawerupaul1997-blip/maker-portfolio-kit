@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import heroAsset from "@/assets/hero-paul.jpg.asset.json";
+import heroImage from "@/assets/hero-paul.png";
 
 const HeroSection = () => {
   return (
@@ -12,7 +12,7 @@ const HeroSection = () => {
           className="space-y-6"
         >
           <p className="text-sm font-display uppercase tracking-[0.2em] text-muted-foreground">
-            Product Designer · Nairobi, Kenya
+            Product Designer(UX/UI) . GMT (+3) . Nairobi, Kenya
           </p>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold leading-[1.1] text-foreground">
             I design digital products that{" "}
@@ -20,9 +20,9 @@ const HeroSection = () => {
             and create meaningful experiences.
           </h1>
           <p className="text-lg text-muted-foreground max-w-lg font-body leading-relaxed">
-            Hi, I'm Paul Wachiuri — a product designer who turns tangled user problems into clear, 
-            intuitive digital solutions. From housing platforms to energy marketplaces, I craft 
-            experiences people actually want to use.
+            Hi, I'm Paul Wachiuri. I design end-to-end digital 
+            products for fintech, healthtech, and B2B SaaS - turning complex, high-stakes problems into interfaces that 
+            are visually polished and intuitive to use. I own the full journey, from problem scoping to shipped, user-tested solutions.
           </p>
           <div className="flex gap-4 pt-4">
             <a
@@ -48,7 +48,7 @@ const HeroSection = () => {
         >
           <div className="rounded-2xl overflow-hidden shadow-2xl">
             <img
-              src={heroAsset.url}
+              src={heroImage}
               alt="Paul Wachiuri - Product Designer"
               className="w-full h-auto object-cover aspect-[3/4]"
             />

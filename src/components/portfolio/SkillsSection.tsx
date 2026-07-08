@@ -15,7 +15,7 @@ const skillCategories = [
   },
   {
     title: "Other Digital Skills",
-    skills: ["Content Editing", "Video Editing", "Virtual Assistance"],
+    skills: ["Graphic Design", "Digital Marketing", "Conversion Rate Optimization"],
   },
   {
     title: "Soft Skills",

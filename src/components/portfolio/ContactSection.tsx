@@ -16,8 +16,7 @@ const ContactSection = () => {
             Let's build meaningful digital products together.
           </h2>
           <p className="text-lg opacity-70 font-body max-w-xl mx-auto leading-relaxed">
-            I'm currently available for remote product design roles, freelance projects, and collaborations
-            with teams building products that matter.
+            Contact me today to discuss how I can help bring your vision to life and create exceptional digital experiences for your users.
           </p>
 
           <div className="flex flex-wrap justify-center gap-6 pt-4">
@@ -42,11 +41,11 @@ const ContactSection = () => {
           <div className="flex flex-wrap justify-center gap-6 pt-2 opacity-70">
             <div className="flex items-center gap-2 font-body">
               <MapPin className="w-4 h-4" />
-              <span>Nairobi, Kenya</span>
+              <span>Nairobi, Kenya(GMT +3)</span>
             </div>
             <div className="flex items-center gap-2 font-body">
               <Globe className="w-4 h-4" />
-              <span>Available for remote work</span>
+              <span>Available for local & international work</span>
             </div>
           </div>
 

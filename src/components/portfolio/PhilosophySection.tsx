@@ -6,7 +6,7 @@ const beliefs = [
     icon: Lightbulb,
     title: "Good design solves real problems",
     description:
-      "Every pixel should earn its place by addressing a genuine user need — not by looking clever in a portfolio.",
+      "Every pixel should earn its place by addressing a genuine user need, not by looking clever in a portfolio.",
   },
   {
     icon: Users,

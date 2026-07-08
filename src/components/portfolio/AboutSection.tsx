@@ -19,27 +19,32 @@ const AboutSection = () => {
           </div>
           <div className="space-y-5 text-muted-foreground leading-relaxed text-lg font-body">
             <p>
-              My path to product design started with curiosity about how digital systems actually work — 
-              and more importantly, why so many of them fail the people who use them. With a background in 
-              Business Information Technology, I learned to see products through a lens that balances 
-              technical possibility, business viability, and human behavior.
+              As a User Interface (UI) and User Experience (UX) designer, I offer a comprehensive range of 
+              services aimed at creating digital products that not only look visually stunning but also provide 
+              exceptional user experiences. Here's an overview of the services I provide:
             </p>
             <p>
-              That intersection is where I do my best work. I'm drawn to problems that matter: 
-              helping a family find a trustworthy rental listing without getting scammed, guiding parents 
-              through a confusing school selection process, or making clean energy accessible to communities 
-              that have been overlooked.
+             UI/UX Consultation and Strategy: I collaborated closely with clients to understand their business 
+             objectives, target audience, and project requirements. Through in-depth consultation and strategic 
+             planning, I ensure that the design aligns with the client's goals and resonates with their users.
             </p>
             <p>
-              I believe the next wave of meaningful digital products will come from Africa — and I want to be 
-              part of building them. Whether it's a marketplace, an education tool, or an energy platform, I 
-              approach every project with the same question: how can this design make someone's life 
-              measurably easier?
+            Wireframing and Prototyping: I create wireframes and interactive prototypes to visualize the 
+            structure, layout, and functionality of digital interfaces. These prototypes serve as a blueprint for 
+            the final design and enable stakeholders to provide feedback and iterate on the design early in the process.
+            </p>
+            <p>  
+              User Research and Analysis: I conduct thorough user research to gain insights into user behaviors, 
+              needs, and pain points. By utilizing various research methods such as surveys, interviews, and usability 
+              testing, I gather valuable data that informs the design process and ensures user-centric solutions.
+            </p>
+             <p>  
+             With a focus on user-centric design and a passion for creating meaningful digital experiences, I am dedicated
+             to helping clients achieve their goals through innovative UI/UX design solutions.
             </p>
             <p>
-              Beyond product design, I bring experience in content editing, video production, and digital 
-              platform management — skills that give me a broader understanding of how products live in the 
-              real world, not just on a Figma canvas.
+              Beyond product design, I bring experience in Conversion Rate Optimization (CRO), helping businesses identify
+              user drop-off points and simplify process-flow, improving conversions and the user experience in e-commerce stores.
             </p>
           </div>
         </motion.div>
